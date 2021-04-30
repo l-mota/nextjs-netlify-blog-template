@@ -1,7 +1,7 @@
 {
-  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "base_url": "https://lmota.netlify.app",
+  "site_title": "Lucas Mota",
+  "site_description": "Site pessoal do Lucas Mota",
   "site_keywords": [
     {
       "keyword": "Next.js"
@@ -11,7 +11,8 @@
     },
     {
       "keyword": "React"
-    }
+    },
+    "Portfólio"
   ],
   "posts_per_page": 5,
   "twitter_account": "@my-account",
