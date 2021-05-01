@@ -4,16 +4,18 @@
   "site_description": "Site pessoal do Lucas Mota",
   "site_keywords": [
     {
-      "keyword": "Next.js"
+      "keyword": "Portfólio"
     },
     {
-      "keyword": "Netlify"
+      "keyword": "Site Pessoal"
     },
     {
-      "keyword": "React"
+      "keyword": "Programção"
     }
   ],
   "posts_per_page": 5,
-  "twitter_account": "@my-account",
-  "github_account": "wutali"
+  "twitter_account": "@lmdvlpr",
+  "github_account": "l-mota",
+  "instagram_account": "lmdvlpr",
+  "linkedin_account": "in/lucas-mota-9355a6150"
 }

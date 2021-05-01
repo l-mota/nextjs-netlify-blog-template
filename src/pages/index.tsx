@@ -13,10 +13,10 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
+            Olá, mundo! &#128512;
           </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
+          <span className="handle">Eu sou o <span className="fancy">Lucas Mota</span> e este é o meu site.</span>
+          <p>Você pode entrar em contato comigo através das redes listadas abaixo.</p>
           <SocialList />
         </div>
       </div>
@@ -32,28 +32,29 @@ export default function Index() {
           font-size: 2.5rem;
           margin: 0;
           font-weight: 500;
+          padding-bottom: 5px;
         }
-        h2 {
-          font-size: 1.75rem;
+        p {
+          font-size: 1rem;
           font-weight: 400;
           line-height: 1.25;
         }
         .fancy {
-          color: #15847d;
+          color: #1C1C1C;
+          font-weight: 600;
         }
         .handle {
           display: inline-block;
           margin-top: 0.275em;
-          color: #9b9b9b;
+          color: #2E2E2E;
           letter-spacing: 0.05em;
+          font-size: 1.0rem;
+          font-weight: 400;
         }
 
         @media (min-width: 769px) {
           h1 {
             font-size: 3rem;
-          }
-          h2 {
-            font-size: 2.25rem;
           }
         }
       `}</style>

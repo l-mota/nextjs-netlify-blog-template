@@ -107,8 +107,8 @@ collections:
       - label: "Publish Date"
         name: "date"
         widget: "datetime"
-        format: "YYYY-MM-DD"
-        dateFormat: "YYYY-MM-DD"
+        format: "DD-MM-YYYY"
+        dateFormat: "DD-MM-YYYY"
         timeFormat: false
       - label: Author
         name: "author"
