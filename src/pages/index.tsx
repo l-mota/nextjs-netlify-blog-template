@@ -3,6 +3,7 @@ import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
+import Link from "next/link";
 
 export default function Index() {
   return (
@@ -15,7 +16,8 @@ export default function Index() {
           <h1>
             Olá, mundo! &#128512;
           </h1>
-          <span className="handle">Eu sou o <span className="fancy">Lucas Mota</span> e este é o meu site.</span>
+          <span className="handle">Eu sou o <Link href="/posts/apresentação">
+          <a className="fancy-undeline">Lucas Mota</a></Link> e este é o meu site.</span>
           <p>Você pode entrar em contato comigo através das redes listadas abaixo.</p>
           <SocialList />
         </div>
@@ -39,9 +41,17 @@ export default function Index() {
           font-weight: 400;
           line-height: 1.25;
         }
-        .fancy {
-          color: #1C1C1C;
+        .fancy-undeline {
+          background-image: linear-gradient(120deg, #FF8008,#FFC837 100%);
+          background-repeat: no-repeat;
+          background-size: 100% 0.3em;
+          background-position: 0 100%;
+          transition: background-size 0.25s ease-in;
+          color: #2E2E2E;
           font-weight: 600;
+        }
+        .fancy-undeline:hover {
+          background-size: 100% 88% !important;
         }
         .handle {
           display: inline-block;
